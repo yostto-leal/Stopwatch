@@ -1,36 +1,36 @@
-Explicação do Código:
-Estado (useState):
+⏱️ Stopwatch
+Um cronômetro simples e funcional desenvolvido com HTML, CSS e JavaScript. Ideal para projetos de estudo, demonstrações de lógica de tempo ou aplicações que exigem controle de duração.
 
-tempo: Armazena o tempo do cronômetro em segundos.
-correndo: Booleano que indica se o cronômetro está em execução.
-intervalo: Controla o setInterval, que é usado para atualizar o cronômetro a cada segundo.
+🚀 Funcionalidades
+Iniciar/Pausar o cronômetro com um único botão
 
-Efeito (useEffect):
+Zerar o tempo para reiniciar a contagem
 
-Quando correndo é true, um setInterval é criado para atualizar o tempo a cada segundo. Quando correndo é false, o intervalo é limpo.
-O retorno de useEffect serve para limpar o intervalo caso o componente seja desmontado ou correndo mude de valor.
+Interface limpa e responsiva
 
-Funções:
+Atualização em tempo real via JavaScript
 
-iniciar: Inicia o cronômetro, colocando correndo como true.
-pararEzerar: Para o cronômetro e zera o tempo.
-formatarTempo: Formata o tempo em minutos e segundos para exibição.
+🛠️ Tecnologias Utilizadas
+HTML5 – estrutura da aplicação
 
-Botões:
+CSS3 – estilização e responsividade
 
-O botão de Iniciar só é habilitado enquanto o cronômetro não estiver correndo.
-O botão de Parar/Zerar exibe "Parar" enquanto o cronômetro estiver em execução, e "Zerar" quando ele estiver parado.
+JavaScript – lógica de funcionamento do cronômetro
 
+📦 Como Executar
+Clone o repositório:
 
-Como funciona a nova abordagem:
+bash
+git clone https://github.com/yostto-leal/Stopwatch.git
+Acesse o diretório do projeto:
 
-O botão Parar vai interromper o cronômetro.
-Após o cronômetro ser parado, o botão de Parar será substituído por um botão de Zerar.
-O botão Zerar vai zerar o tempo do cronômetro, mas não o reiniciará.
+bash
+cd Stopwatch
+Abra o arquivo index.html no navegador
 
+📸 Captura de Tela
+Adicione aqui uma imagem ilustrativa do cronômetro em funcionamento (opcional).
 
-
-
-
-
+👨‍💻 Autor
+Desenvolvido por Ariosto Leal Confira outros projetos no GitHub
 
